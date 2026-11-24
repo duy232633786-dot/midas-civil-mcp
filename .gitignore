@@ -1,0 +1,9 @@
+node_modules/
+midas-work/
+revit-import/
+evidence/
+backups/
+*.mcb
+*.mcb.bak
+.env
+.env.*

@@ -1,0 +1,17 @@
+{
+  "name": "midas-civil-mcp",
+  "version": "0.5.0",
+  "private": true,
+  "type": "module",
+  "description": "Safe MCP gateway for MIDAS Civil file/MCT workflows (preview-hash-commit, Revit bridge)",
+  "scripts": {
+    "start": "node server.js",
+    "demo": "node run-demo.js",
+    "build:revit-bridge": "node build-revit-bridge.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0"
+  },
+  "license": "MIT"
+}
